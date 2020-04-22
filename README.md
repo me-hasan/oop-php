@@ -1,9 +1,19 @@
 # oop-php
 Object orient programming learning
 
-    ```require "vendor/autoload.php";
-
-   
+## Basic uses
+### add below this code into composer.json file
+  ```json
+{
+    "require": {
+        "k-hasan/oop-php":"dev-master"
+    }
+}
+```
+### add below this code into index.php file then run it.
+  
+  ```php
+    require "vendor/autoload.php";
 
 
     $shop1 = new Product('Lux', 50, 'Toilet shopppp');
@@ -17,10 +27,8 @@ Object orient programming learning
 
     $dhakaBazar->requisition($shop1);
 
-
-
-
-
     echo '<pre>';
 
-    print_r ($gudam);```
+    print_r ($gudam);
+```
+    
