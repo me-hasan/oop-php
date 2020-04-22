@@ -1,8 +1,8 @@
 # oop-php
 Object orient programming learning
 
-## Basic uses
-### add below this code into composer.json file
+## Installation
+### 1. Add below this code into composer.json file
   ```json
 {
     "require": {
@@ -10,6 +10,13 @@ Object orient programming learning
     }
 }
 ```
+
+### 2. command run into Terminal or Shell
+```composer log
+composer install
+```
+
+## Basic uses
 ### add below this code into index.php file then run it.
   
   ```php
@@ -19,16 +26,16 @@ Object orient programming learning
     use Oop\Stock;
     use Oop\Store;
 
-    $shop1 = new Product('Lux', 50, 'Toilet shopppp');
-    $shop2 = new Product('Mariel', 40, 'Toilet shop');
+    $product1 = new Product('Lux', 50, 'Toilet shopppp');
+    $product2 = new Product('Mariel', 40, 'Toilet shop');
 
-    $shop3 = new Product('Nim', 20, 'Toilet shop');
+    $newProduct = new Product('Nim', 20, 'Toilet shop');
 
-    $gudam = new Stock([$shop2, $shop3]);
+    $gudam = new Stock([$product1, $product2]);
 
     $dhakaBazar = new Store($gudam);
 
-    $dhakaBazar->requisition($shop1);
+    $dhakaBazar->requisition($newProduct);
 
     echo '<pre>';
 
