@@ -1,0 +1,24 @@
+{
+    "name": "k-hasan/oop-php",
+    "type": "library",
+    "description": "Logging for PHP 7 OOP",
+    "keywords": ["php","oop"],
+    "homepage": "https://github.com/k-hasan/oop-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Khayrul Hasan",
+            "email": "khayrul.web@gmail.com",
+            "homepage": "http://khayrul.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+      	   "Oop\\" : "src"
+    	}
+    }
+}
