@@ -15,6 +15,9 @@ Object orient programming learning
   ```php
     require "vendor/autoload.php";
 
+    use Oop\Item\Product;
+    use Oop\Stock;
+    use Oop\Store;
 
     $shop1 = new Product('Lux', 50, 'Toilet shopppp');
     $shop2 = new Product('Mariel', 40, 'Toilet shop');
