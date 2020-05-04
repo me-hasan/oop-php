@@ -2,7 +2,13 @@
 Object orient programming learning
 
 ## Installation
-### 1. Add below this code into composer.json file
+### command run into Terminal or Shell
+    
+```composer log
+composer require k-hasan/oop-php;
+```
+## Or
+### Add below this code into composer.json file
   ```json
 {
     "require": {
@@ -11,7 +17,7 @@ Object orient programming learning
 }
 ```
 
-### 2. command run into Terminal or Shell
+### command run into Terminal or Shell
 ```composer log
 composer install
 ```
